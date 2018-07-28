@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Caliber - Online Fitness Tracking</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
     <script src="main.js"></script>
 </head>
 <body>
@@ -18,22 +18,14 @@
             <div class="main-wrapper">
                 <ul>
                     <li><a href="index.php">Home</a></li>
-                </ul>
-                <div class="nav-login">
-                    <?php
+                    <li><button id="myBtn">Account Status<?php
                         if (isset($_SESSION['u_id'])) {
                             echo '<form action="includes/logout.inc.php" method="POST">
-                                    <button type="submit" name="submit">Logout</button>
-                                  </form>';
-                        } else {
-                            echo '<form action="includes/login.inc.php"  method="POST">
-                                    <input type="text" name="uid" placeholder="Username/Email">
-                                    <input type="password" name="pwd" placeholder="Password">
-                                    <button type="submit" name="submit">Login</button>
-                                  </form>
-                                  <a href="signup.php">Sign Up</a>';
+                                    </form>';
                         }
-                    ?>
+                    ?></button></li>
+                </ul>
+                <div class="nav-login">
                 </div>
             </div>
         </nav>
