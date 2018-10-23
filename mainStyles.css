@@ -178,6 +178,7 @@ html {
 .cal_logo {
     height: 100px;
     width: 100px;
+    margin-left: 20px;
 }
 .navigation-links {
     display: inline-flex;
@@ -282,6 +283,9 @@ h1 {
     cursor: pointer;
 }
 .addExerLink {
+    position: relative;
+}
+.newOpenModalsWithId {
     position: relative;
 }
 .under-main-wrapper {

@@ -27,9 +27,7 @@
         }
     ?>
   </div>
-
 </div>
-<button class="addExerLink" id="append">Add Exercise</button>
 <script>
 var modal = document.getElementById('myModal');
 var btn = document.getElementById("myBtn");
@@ -71,13 +69,6 @@ var exercise = 1;
             exerModal.style.display = "none";
         }
     }
-    $(function(){
-    var count = 0;
-    $('#append').click(function(){
-        $('#parent').append('<div id="first'+count+'">Text</div>');
-        count++;
-    });
-    });
     function SaveExercises() {
         var displayExerciseCheckOneName = document.getElementById("exerciseContent").value;
         var displayExerciseTypeCheckBoxOne = document.getElementById("checkboxOne").value;
