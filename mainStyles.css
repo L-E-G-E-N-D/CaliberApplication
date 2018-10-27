@@ -366,10 +366,17 @@ h1 {
     display: inline-block; /*Display inline and maintain block characteristics.*/
     vertical-align: top; /*Makes sure all the divs are correctly aligned.*/
 }
+.wholeAddExer {
+    border-bottom: 1px solid #e5e5e5;
+    width: 80%;
+    padding-bottom: 100px;
+}
 .container {
     max-width: 640px;
     font-family: 'Rubik', sans-serif;
     font-size: 15px;
+    margin-left: 400px;
+    margin-top: -250px;
 }
 ul.ks-cboxtags {
     list-style: none;
