@@ -13,14 +13,13 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800|Raleway|Roboto|Rubik" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="mainStyles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="main.js"></script>
 </head>
 <body>
     <header>
         <nav>
             <div class="main-wrapper">
                 <ul class="navigation-links">
-                    <img class="back_image" src="CalBack.jpg">
+                    <!--<img class="back_image" src="CalBack.jpg">-->
                     <li><a class="links" href="index.php">Home</a></li>
                     <li><button class="links" id="myBtn">Account Status</button></li>
                 </ul>

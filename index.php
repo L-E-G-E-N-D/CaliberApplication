@@ -44,7 +44,7 @@ window.onclick = function(event) {
     }
 }
 // Start of the Add category code
-var exercise = 1;
+/* var exercise = 1;
     exercise++;
     var objTo = document.getElementById('room_fileds');
     var divtest = document.createElement("div");
@@ -97,8 +97,8 @@ var exercise = 1;
         var displayExerciseSets = document.getElementById("exerciseSets").value;
         document.getElementById("displayExerciseContentSets").innerHTML = displayExerciseSets;
     }
+    */
 /* Start of the Opening Add Exercise Modal Code */
-
 /*// Start of the Save Text when clicked save inputs
 function SaveInputText() {
     var text = document.getElementById("exerTitle").value;

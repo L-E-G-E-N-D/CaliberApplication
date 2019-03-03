@@ -1,9 +1,19 @@
+<div class="grid">
+    <div>hi</div>
+    <div>hi</div>
+    <div>hi</div>
+    <div class="skew-one"></div>
+    <div class="skew-two"></div>
+    <div class="skew-three"></div>
+    <div class="skew-four"></div>
+    <div class="skew-five"></div>
+</div>
 <section class="main-container">
     <div class="main-design-wrapper">
         <div class="main-wrapper">
             <img class="cal_logo" src="CaliberLogo.jpg">
-            <h3 class="main_title">The best way to improve your lives</h3>
-            <p class="main_content">Caliber is the best fitness tracking application<br>developed to make your lives easier. Our products<br> have proved to keep everyone organized and on track!</p>
+            <h3 class="main_title">The best way to improve your life</h3>
+            <p class="main_content">Caliber is the best fitness tracking application<br>developed to make your life easier. Our products<br> have proved to keep everyone organized and on track!</p>
             <a class="contact_link_1" href="#">Contact Us</a>
             <a class="contact_link_2" href="#">Your Dashboard</a>
         </div>
@@ -16,7 +26,7 @@
     <div class="under-design-wrapper">
         <div class="under-wrapper">
             <h3 class="under_title">Athletes First</h3>
-            <p class="under_content">At Caliber, everyone is an athlete even if you are a beginner. At Caliber, we believe that financial situations play a major role in shaping who you are. We carefully developed robust systems to help you fulfill your dreams with zero cost to you. Because there is no need to pay to use, you can get excercising with just a couple of clicks.</p>
+            <p class="under_content">At Caliber, everyone is an athlete even if you are a beginner. We believe that financial situations play a major role in shaping who you are. Thus, we carefully developed this robust system to help you fulfill your dreams with zero cost to you. Because there is no need to pay to use, you can get excercising with just a couple of clicks.</p>
         </div>
     </div>
     <div class="under-main-wrapper">
@@ -35,7 +45,7 @@
         <div class="getting-started-wrappers">
             <h3 class="getting_started_title">Track your fitness</h3>
             <p class="getting_started_content">Use dynamic systems to enter the type of workout<br>you did, then the number of repetitions, and the<br>number of sets you completed.</p>
-            <a class="getting_started_link" href="#">Explore how Caliber works</a>
+            <a class="getting_started_link" href="#">See what systems Caliber employs</a>
         </div>
         <div class="getting-started-wrappers">
             <h3 class="getting_started_title">Case Studies</h3>

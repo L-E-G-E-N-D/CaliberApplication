@@ -3,20 +3,48 @@ html {
     font-family: 'Rubik', sans-serif;
     overflow: scroll;
 }
-.back_image {
-    position: absolute;
-    width: 1350px;
-    margin-top: -25px;
-    margin-left: -50px;
+.grid, .skew-one, .skew-two, .skew-three, .skew-four, .skew-five{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: repeat(4, minmax(200px, 1fr));
+    grid-template-columns: repeat(10, minmax(150px, 1fr));
 }
-/*.back_image_2 {
-    position: absolute;
-    width: 1350px;
-    margin-top: 725px;
-    margin-left: -50px;
-    overflow: hidden;
+.skew-one {
+    -webkit-clip-path: polygon(83% 0, 0 0, 83% 16%);
+    clip-path: polygon(83% 0, 0 0, 83% 16%);
+    background-color:#da4646;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
-*/
+.skew-two {
+    -webkit-clip-path: polygon(83% 0, 0 0, 83% 16%);
+    clip-path: polygon(83% 0, 0 0, 83% 16%);
+    background-color:#da4646;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.skew-three {
+    -webkit-clip-path: polygon(83% 0, 0 0, 83% 16%);
+    clip-path: polygon(83% 0, 0 0, 83% 16%);
+    background-color:#da4646;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.skew-four {
+    -webkit-clip-path: polygon(83% 0, 0 0, 83% 16%);
+    clip-path: polygon(83% 0, 0 0, 83% 16%);
+    background-color:#da4646;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.skew-five {
+    -webkit-clip-path: polygon(83% 0, 0 0, 83% 16%);
+    clip-path: polygon(83% 0, 0 0, 83% 16%);
+    background-color:#da4646;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
 .left_style {
     margin-right: 10px;
 }
@@ -35,6 +63,7 @@ html {
 }
 .main_title {
     font-size: 35px;
+    color: #323232;
     margin-left: 165px;
     margin-top: 82.5px;
 }
@@ -52,8 +81,8 @@ html {
     font-weight: 800;
     text-transform: uppercase;
     color: #ffffff;
-    border: 1px solid #cc0000;
-    background-color: #cc0000;
+    border: 1px solid #d63232;
+    background-color: #d63232;
     box-shadow: 0px 3px 5px #888888;
     padding: 10px;
     margin-top: 100px;
@@ -68,8 +97,8 @@ html {
     font-weight: 800;
     text-transform: uppercase;
     color: #ffffff;
-    border: 1px solid #cc0000;
-    background-color: #cc0000;
+    border: 1px solid #d63232;
+    background-color: #d63232;
     box-shadow: 0px 3px 5px #888888;
     padding: 10px;
     margin-top: 100px;
@@ -442,6 +471,7 @@ ul.ks-cboxtags li input[type="checkbox"] {
     padding: 10px;
     border-radius: 4px;
     margin-top: 10px;
+    margin-left: 25px;
 }
 table {
     font-family: 'Rubik', sans-serif;
