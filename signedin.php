@@ -1,8 +1,5 @@
 <?php
     if (isset($_SESSION['u_id'])) {
-        echo '<div class="success_statement">
-        You are successfully logged in!
-        </div>';
         /* echo '<div class="contact-form">
                 <form id="contact-form" action="contactform.php" method="post">
                     <input type="text" name="name" placeholder="Full Name" class="form-control" required>

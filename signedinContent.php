@@ -1,20 +1,27 @@
 <?php
      include_once 'header.php';
  ?>
- <form action="insert.php" method="POST">
-    <button onclick="OpenBox()">Enter Exercise Details</button>
-        <div id="OpenBoxExer" style="visibility: hidden">
-            <input type="text" placeholder="Exercise Name" name="exername" required><br>
-            <input type="number" placeholder="Exercise Repetitions" name="exerreps" required><br>
-            <input type="number" placeholder="Exercise Time" name="exertime" required><br>
-            <input type="number" placeholder="Exercise Sets" name="exersets" required><br>
-            <input type="number" placeholder="Exercise Weight" name="exerweight" required><br>
-                <input type="radio" value="kilo" name="exerwdet" required>Kg.<br>
-                <input type="radio" value="pound" name="exerwdet" required>Lbs.<br>
-            <input type="submit" value="Submit">
-        </div>
- </form>
-    <!--
+<div class="tabs-container">
+    <div class="tabs-container__sidebar">
+        <a href="#" class="tabs-container__tabs tabs-container__tabs--active" data-for-tab="1">Home</a>
+        <a href="#" class="tabs-container__tabs" data-for-tab="2">Authentication</a>
+        <a href="#" class="tabs-container__tabs" data-for-tab="3">Track Activity</a>
+        <a href="#" class="tabs-container__tabs" data-for-tab="4">Track Food</a>
+        <a href="#" class="tabs-container__tabs" data-for-tab="5">Analytics</a>
+        <a href="#" class="tabs-container__tabs" data-for-tab="6">Efficiency</a>
+        <a href="#" class="tabs-container__tabs" data-for-tab="7">Disputes</a>
+        <a href="#" class="tabs-container__tabs" data-for-tab="8">Settings</a>
+    </div>
+    <div class="tabs-container__content tabs-container__content--active" data-tab="1"><p>Wigg Crap 1</p></div>
+    <div class="tabs-container__content" data-tab="2"><p>Wigg Crap 2</p></div>
+    <div class="tabs-container__content" data-tab="3"><p>Wigg Crap 3</p></div>
+    <div class="tabs-container__content" data-tab="4"><p>Wigg Crap 4</p></div>
+    <div class="tabs-container__content" data-tab="5"><p>Wigg Crap 5</p></div>
+    <div class="tabs-container__content" data-tab="6"><p>Wigg Crap 6</p></div>
+    <div class="tabs-container__content" data-tab="7"><p>Wigg Crap 7</p></div>
+    <div class="tabs-container__content" data-tab="8"><p>Wigg Crap 8</p></div>
+</div>
+   <!--
  <div class="tracking-items">
      <button class="tracking-items-change" name="changetheme">Change Theme</button>
  </div> -->
