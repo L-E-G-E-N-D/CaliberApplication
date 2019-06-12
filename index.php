@@ -43,12 +43,6 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
-function RemoveInputs() {
-    var inputRemove = document.getElementById("exerTitle");
-    var buttonRemove = document.getElementById("removeButton");
-    inputRemove.remove(inputRemove);
-    buttonRemove.remove(buttonRemove);
-}
 </script>  
 <?php
     include_once 'footer.php';

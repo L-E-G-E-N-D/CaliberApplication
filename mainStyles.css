@@ -1,7 +1,7 @@
 html {
     background-repeat: no-repeat;
     font-family: 'Rubik', sans-serif;
-    background-image: linear-gradient(to right, #1d6b63 , #3bd6c6);
+    background-color: #e5e5e5;
     overflow-x: hidden;
     overflow-y: scroll;
     color: #ffffff;
@@ -403,15 +403,18 @@ html {
     grid-auto-rows: minmax(20px, auto);
 }
 .tabs-container {
-    border: 1px solid #cccccc;
+    border: none;
     display: flex;
-}
+    margin-left: -10px;
+}   
 .tabs-container__sidebar {
     width: 125px;
     flex-shrink: 0;
-    background-color: #cccccc;
+    padding-right: 40px;
+    margin-left: 10px;
 }
 .tabs-container__tabs {
+    margin-top: 20px;
     display: block;
     text-decoration: none;
     color: #3c3c3c;
@@ -429,12 +432,160 @@ html {
     background-color: #b9ead9;
     color: #18bb82;
     padding: 10px;
+    border-radius: 0 25px 25px 0;   
+    margin-left: -10px;
 }
 .tabs-container__content {
     padding: 15px;
-    font-size: 0.8rem;
     display: none;
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: #3c3c3c;
+    width: 100%;
 }
 .tabs-container__content--active{
     display: block;
 }
+.tab-box-title{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 20px;
+}
+.collapse {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 14px;
+    font-weight: 600;
+    padding: 30px;
+    cursor: pointer;
+}
+.collcontent {
+    display: none;
+    overflow: hidden;
+    border-bottom: 1px solid #d8d7d7;
+    padding: 0 0 10px 30px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+}
+.intro-style {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+    width: 625px;
+    height: 55px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.activ_box_tab {
+    width: 650px;
+}
+.activ_track_table {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+}
+table {
+    width: 100%;
+}
+  
+td, th {
+    padding: 8px;
+}
+.name_row {
+    width: 100%;
+    background-color: #e7f8f2;
+}
+#newWork {
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: 	#18bb82;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 5px #888888;
+    padding: 7px;
+    border-radius: 4px;
+    margin-left: 95%;
+}
+#newWork:hover,
+#newWork:focus {
+    color:#0e704e;
+    text-decoration: none;
+    cursor: pointer;
+}
+.newWorkout {
+    display: none;
+    position: fixed; 
+    z-index: 1;
+    padding-top: 100px;
+    left: 400px;
+    top: 100px;
+    width: 40%;
+    height: 100%; 
+  }
+  .workoutEntry {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+    margin: auto;
+    padding: 20px;
+    border: none;
+    width: 80%;
+    border-radius: 5px;
+    display: inline-block;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 5px #888888;
+  }
+  .labelStyle {
+      display: block;
+  }
+  .inputStyle {
+      display: block;
+  }
+  .submitWorkout {
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: 	#18bb82;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 5px #888888;
+    padding: 7px;
+    border-radius: 4px;
+    margin-top: 10px;
+    float: right;
+  }
+  .submitWorkout:hover,
+  .submitWorkout:focus {
+    color: #0e704e;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .closeWorkout {
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: 	#ff3333;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 5px #888888;
+    padding: 7px;
+    border-radius: 4px;
+    margin-top: 10px;
+    float: right;
+    margin-right: 10px;
+  }
+  .closeWorkout:hover,
+  .closeWorkout:focus {
+    color:#cc0000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .inputStyle {
+      border-radius: 4px;
+      border: 1px solid #cfcfcf;
+      width: 100%;
+  }
