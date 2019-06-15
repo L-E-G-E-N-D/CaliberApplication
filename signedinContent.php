@@ -59,7 +59,7 @@
                         <input type="number" name="ExerSets" class="inputStyle">
                         <label class="labelStyle">Time</label>
                         <input type="number" name="ExerTime" class="inputStyle">
-                        <span class="submitWorkout">Create Workout</span>
+                        <input type="submit" value="Create Workout" class="submitWorkout">
                         <span class="closeWorkout">Close</span>
                     </form>
                 </div>
@@ -69,9 +69,10 @@
             <table>
             <tr class="name_row">
                 <th>Workout Name</th>
+                <th>Weight</th>
+                <th>Body Part</th>
                 <th>Repetitions</th>
                 <th>Sets</th>
-                <th>Weight(Lbs.)</th>
                 <th>Time(Secs.)</th>
             </tr>
             </table>
