@@ -21,11 +21,12 @@
             <div class="main-wrapper">
                 <ul class="navigation-links">
                     <!--<img class="back_image" src="CalBack.jpg">-->
-                    <li><a class="links" href="index.php">Home</a></li>
-                    <li><button class="links" id="myBtn">Account Status</button></li>
+                    <li><a class="links" href="#">Tools</a></li>
+                    <li><a class="links" href="#">Company</a></li>
+                    <li><a class="links" href="#">Pricing</a></li>
+                    <li><a class="links" href="#">Home</a></li>
+                    <li><a class="links" href="#">Support Caliber</a></li>
                 </ul>
-                <div class="nav-login">
-                </div>
             </div>
         </nav>
     </header>

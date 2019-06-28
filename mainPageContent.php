@@ -1,4 +1,3 @@
-<div class="test"></div>
 <section class="main-container">
     <div class="main-design-wrapper">
         <div class="main-wrapper">

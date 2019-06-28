@@ -4,14 +4,42 @@
 
 <section class="main-container">
     <div class="main-wrapper">
-        <h2>Sign Up</h2>
+
         <form class="signup-form" action="includes/signup.inc.php" method="POST">
-            <input type="text" name="first" placeholder="Firstname">
-            <input type="text" name="last" placeholder="Lastname">
-            <input type="text" name="email" placeholder="Email">
-            <input type="text" name="uid" placeholder="Username">
-            <input type="password" name="pwd" placeholder="Password">
-            <button type="submit" name="submit">Signup</button>
+            <p class="titlelabelStyle">Create your Caliber account now</p>
+            <div class="linksStyle">
+                <label class="labelStyle">First Name</label>
+                <input class="inpStyle" type="text" name="first">
+            </div>
+
+            <div class="linksStyle">
+                <label class="labelStyle">Last Name</label>
+                <input class="inpStyle" type="text" name="last">
+            </div>
+
+            <div class="linksStyle">
+                <label class="labelStyle">Email</label>
+                <input class="inpStyle" type="text" name="email">
+            </div>
+
+            <div class="linksStyle">
+                <label class="labelStyle">Username</label>
+                <input class="inpStyle" type="text" name="uid">
+            </div>
+
+            <div class="linksStyle">
+                <label class="labelStyle">Password</label>
+                <input class="inpStyle" type="password" name="pwd">
+            </div>
+
+            <br>
+
+            <div class="linksStyle">
+                <button class="submit-button-links-style" type="submit" name="submit">Create your Caliber account</button>
+            </div>
+            <div class="signUpPrompt">
+                <p class="labelStyle">Already have an account?<a class="signUpFromSignIn" href="signin.php">Sign In</a></p>
+            </div>
         </form>
     </div>
 </section>
