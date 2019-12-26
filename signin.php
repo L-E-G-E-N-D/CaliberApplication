@@ -1,9 +1,9 @@
 <?php
-    include_once 'header.php';
+    include_once 'noHeader.php';
 ?>
 
 <form class="signin-form" action="includes/login.inc.php" method="POST">
-    <p class="titlelabelStyle">Welcome back!</p>
+    <p class="titlelabelStyleSignIn">Welcome back!</p>
     <input class="signInInpStyle" type="text" name="uid" placeholder="Username/Email">
     <input class="signInInpStyle" type="password" name="pwd" placeholder="Password">
     <button class="signin-button-links-style" type="submit" name="submit">Sign in to your account</button>

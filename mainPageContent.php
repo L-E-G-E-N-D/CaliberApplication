@@ -1,4 +1,4 @@
-<section class="main-container">
+<section class="mainpage-container">
     <div class="main-design-wrapper">
         <div class="main-wrapper">
         <!--background-image: linear-gradient(to right, #1d6b63 , #3bd6c6);-->
